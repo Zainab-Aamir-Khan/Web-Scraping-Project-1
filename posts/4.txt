@@ -1,0 +1,3 @@
+company Name : SEVEN CONSULTANCY 
+Required Skills : python mvc sql 
+More Information : [] 
