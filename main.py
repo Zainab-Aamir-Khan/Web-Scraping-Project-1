@@ -4,7 +4,7 @@ import time
 
 print("enter unfamiliar skills!")
 unfamiliarSkills = input(">")
-print(f'filtering out!! : {unfamiliarSkills}')
+print(f'filtering out!!! : {unfamiliarSkills}')
 
 def findJobs():
     response = requests.get('https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&searchTextSrc=&searchTextText=&txtKeywords=python&txtLocation=')
