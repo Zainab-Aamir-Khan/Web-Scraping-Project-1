@@ -4,7 +4,7 @@ import time
 
 print("enter unfamiliar skills!")
 unfamiliarSkills = input(">")
-print(f'filtering out : {unfamiliarSkills}')
+print(f'filtering out!! : {unfamiliarSkills}')
 
 def findJobs():
     response = requests.get('https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&searchTextSrc=&searchTextText=&txtKeywords=python&txtLocation=')
@@ -22,7 +22,7 @@ def findJobs():
 
                     f.write(f"company Name! : {companyName} \n")
                     f.write(f"Required Skills! : {skills} \n")
-                    f.write(f"More Information : {moreInfo} \n")
+                    f.write(f"More Information! : {moreInfo} \n")
                 print(f'file saved: {index}')    
 
 if __name__ == '__main__':
